@@ -9,7 +9,7 @@ local function FacelessFunction(ply)
 	local trace = ply:GetEyeTrace()
 	local target = trace.Entity
 
-	if not trace.HitWorld and IsValid(target) and target:IsPlayer() and target:Alive() then
+	if not trace.HitWorld and IsValid(target) and target:IsPlayer() and target:Alive() and target:HasClass() then
 		if SERVER then
 			timer.Simple(0.1, function()
 				local phr = ply:GetCustomClass()
@@ -47,7 +47,7 @@ CLASS.AddClass("FACELESS", {
 		onCharge = ChargeFaceless,
 		time = 0, -- skip timer, this will skip onActivate too! Use onDeactivate instead
 		cooldown = 90,
-		charging = 2,
+		charging = 1,
 		langs = {
 			English = "Faceless"
 		}
