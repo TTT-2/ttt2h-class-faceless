@@ -48,8 +48,15 @@ CLASS.AddClass("FACELESS", {
 		time = 0, -- skip timer, this will skip onActivate too! Use onDeactivate instead
 		cooldown = 90,
 		charging = 1,
-		langs = {
-			English = "Faceless"
+		lang = {
+			name = {
+				English = "Faceless",
+				Deutsch = "Gesichtsloser"
+			},
+			desc = {
+				English = "He himself has no special abilities, but he is able to steal the class of another person.",
+				Deutsch = "Er selbst hat keine besonderen Fähigkeiten, kann aber die eines anderen stehlen."
+			}
 		}
 })
 
