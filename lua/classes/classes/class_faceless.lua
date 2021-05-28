@@ -50,16 +50,16 @@ CLASS.AddClass("FACELESS", {
 		charging = 1,
 		lang = {
 			name = {
-				English = "Faceless",
-				Deutsch = "Gesichtsloser",
-				French = "Sans visage",
-				Русский = "Безликий"
+				en = "Faceless",
+				de = "Gesichtsloser",
+				fr = "Sans visage",
+				ru = "Безликий"
 			},
 			desc = {
-				English = "He himself has no special abilities, but he is able to steal the class of another person.",
-				Deutsch = "Er selbst hat keine besonderen Fähigkeiten, kann aber die eines anderen stehlen.",
-				French = "Lui-même n'a pas de capacités particulières, mais il est capable de voler la classe d'une autre personne.",
-				Русский = "Сам он особых способностей не имеет, но способен украсть класс другого человека."
+				en = "He himself has no special abilities, but he is able to steal the class of another person.",
+				de = "Er selbst hat keine besonderen Fähigkeiten, kann aber die eines anderen stehlen.",
+				fr = "Lui-même n'a pas de capacités particulières, mais il est capable de voler la classe d'une autre personne.",
+				ru = "Сам он особых способностей не имеет, но способен украсть класс другого человека."
 			}
 		}
 })
